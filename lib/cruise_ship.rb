@@ -10,8 +10,8 @@ require 'pry'
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |key, value|
-    #binding.pry
-    if :suite_a == value.start_with?("A")
+    binding.pry
+    if key == :suite_a && value.start_with?("A")
       puts "Winner is: #{value}!"
     end
   end
