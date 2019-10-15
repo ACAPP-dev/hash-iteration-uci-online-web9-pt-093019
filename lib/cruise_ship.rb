@@ -16,8 +16,9 @@ def select_winner(passengers)
       #puts "Winner is: #{value}!"
       winner = value
     end
-    winner
+    
   end
+  winner
 end
 
 #select_winner(passengers)
