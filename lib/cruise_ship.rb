@@ -14,7 +14,7 @@ def select_winner(passengers)
     if key[:suite_a] == value.start_with?("A")
       puts "Winner is: #{value}!"
     end
-
+  end
 end
 
 select_winner(passengers)
