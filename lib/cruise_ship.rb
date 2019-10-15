@@ -13,9 +13,10 @@ def select_winner(passengers)
   passengers.each do |key, value|
     #binding.pry
     if key == :suite_a && value.start_with?("A")
-      puts "Winner is: #{value}!"
+      #puts "Winner is: #{value}!"
+      winner = value
     end
   end
 end
 
-select_winner(passengers)
+#select_winner(passengers)
